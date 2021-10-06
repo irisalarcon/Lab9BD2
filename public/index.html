@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<script type="text/javascript">
+		
+		var webSocket;
+		var msgTable;
+		function connectToWebSocketServer() {
+			if ("WebSocket" in window) {
+				webSocket = new WebSocket('ws://' + window.location.href.split('/')[2]);
+				webSocket.onopen = function() {
+					monitorAllMessages();
+				};
+				webSocket.onmessage = function (evt)  { 
+					console.log('Message received: ' + evt.data);
+					var message = JSON.parse(evt.data);
+					if(typeof message.new_val == "undefined"){//init
+						var row = msgTable.insertRow(msgTable.rows.length);
+						addTextCellToRow(row, 0, message.id);
+						addTextCellToRow(row, 1, message.message);				
+					}else{//insert, update or delete
+						if(message.new_val != null && message.old_val == null){//insert
+							console.log("INSERT");
+							var row = msgTable.insertRow(msgTable.rows.length);
+							addTextCellToRow(row, 0, message.new_val.id);
+							addTextCellToRow(row, 1, message.new_val.message);
+						}
+						if(message.new_val != null && message.old_val != null){//update
+							console.log("UPDATE");
+							deleteRowAt(message.old_val.id);
+							var row = msgTable.insertRow(msgTable.rows.length);
+							addTextCellToRow(row, 0, message.new_val.id);
+							addTextCellToRow(row, 1, message.new_val.message);
+						}
+						if(message.new_val == null && message.old_val != null){//delete
+							console.log("DELETE");
+							deleteRowAt(message.old_val.id);
+						}
+					}
+
+				};
+				webSocket.onclose = function() { 
+					console.log('Websocket closed.');
+				};
+			}
+			else {
+				alert("WebSocket not supported browser.");
+			}
+		}
+
+		function monitorAllMessages() {
+			clearRows();
+			var message = JSON.stringify({monitorAll:true});
+			webSocket.send(message);
+		}
+		function addTextCellToRow(row, index, text) {
+			var cell  = row.insertCell(index);
+			cell.appendChild(document.createTextNode(text));
+		}
+		function addHtmlCellToRow(row, index, html) {
+			var cell  = row.insertCell(index);
+			var htmlNode = document.createElement('span');
+    		htmlNode.innerHTML = html;
+			cell.appendChild(htmlNode);
+		}
+		function clearRows() {
+			for(var i = (msgTable.rows.length-1); i >= 1; i--) {
+   				msgTable.deleteRow(i);
+			}
+		}
+		function deleteRowAt(index) {
+			for(var i = 0; i < msgTable.rows.length; i++) {
+					if(msgTable.rows[i].cells[0].innerHTML == index){
+   					msgTable.deleteRow(i);
+						return;
+					}
+			}
+		}
+		function init() {
+			msgTable = document.getElementById('msgTable').getElementsByTagName('tbody')[0];
+			connectToWebSocketServer();
+		}
+		</script>
+	</head>
+	<body onLoad="init()">
+		<h1>Mensajes:</h1>
+		<table id="msgTable" border="1" cellspacing="0">
+			<tr>
+				<td>ID</td>
+				<td>Mensaje</td>
+			</tr>
+		</table>
+	</body>
+</html>

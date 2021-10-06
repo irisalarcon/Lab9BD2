@@ -1,0 +1,137 @@
+2019-10-05T16:46:39.447787490 0.097858s notice: Recursively removing directory /home/carlos/real-time-app/.messagesDB/tmp
+2019-10-05T16:46:39.495791780 0.145875s notice: Initializing directory /home/carlos/real-time-app/.messagesDB
+2019-10-05T16:46:39.496170243 0.146239s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/carlos/real-time-app/.messagesDB' did not already exist or is empty.)
+2019-10-05T16:46:39.496276930 0.146345s notice: Running rethinkdb 2.3.7~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2019-10-05T16:46:39.506988947 0.157067s notice: Running on Linux 4.15.0-65-generic x86_64
+2019-10-05T16:46:39.507210487 0.157279s notice: Loading data from directory /home/carlos/real-time-app/.messagesDB
+2019-10-05T16:46:40.336490162 0.986578s info: Automatically using cache size of 3879 MB
+2019-10-05T16:46:40.399986053 1.050054s notice: Listening for intracluster connections on port 29015
+2019-10-05T16:46:40.483975413 1.134044s notice: Listening for client driver connections on port 28015
+2019-10-05T16:46:40.484516122 1.134584s notice: Listening for administrative HTTP connections on port 8080
+2019-10-05T16:46:40.484533187 1.134601s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2019-10-05T16:46:40.484535047 1.134603s notice: Listening on driver addresses: 127.0.0.1, ::1
+2019-10-05T16:46:40.484561501 1.134629s notice: Listening on http addresses: 127.0.0.1, ::1
+2019-10-05T16:46:40.484572069 1.134639s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-10-05T16:46:40.484616347 1.134684s notice: Server ready, "carlos_pc_xyh" 51bdc603-ce5e-4681-82df-41a53485eb84
+2019-10-05T16:51:19.910665024 280.560734s info: Table 6530efd7-c80d-4bcc-a51a-a952d45eabc2: Starting a new Raft election for term 1.
+2019-10-05T16:51:19.911411729 280.561480s info: Table 6530efd7-c80d-4bcc-a51a-a952d45eabc2: Added replica on this server.
+2019-10-05T16:51:19.969354713 280.619424s info: Table 6530efd7-c80d-4bcc-a51a-a952d45eabc2: This server is Raft leader for term 1. Latest log index is 0.
+2019-10-05T16:59:52.578439865 793.228509s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2019-10-05T16:59:52.578773033 793.228841s notice: Shutting down client connections...
+2019-10-05T16:59:52.579308119 793.229377s notice: All client connections closed.
+2019-10-05T16:59:52.579350996 793.229418s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2019-10-05T16:59:52.585834025 793.235903s notice: Storage engine shut down.
+2019-10-05T17:02:18.512705451 0.020533s notice: Running rethinkdb 2.3.7~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2019-10-05T17:02:18.515429551 0.023257s notice: Running on Linux 4.15.0-65-generic x86_64
+2019-10-05T17:02:18.515483021 0.023308s notice: Loading data from directory /home/carlos/real-time-app/.messagesDB
+2019-10-05T17:02:18.617551020 0.125391s info: Automatically using cache size of 3838 MB
+2019-10-05T17:02:18.620877180 0.128703s notice: Listening for intracluster connections on port 29015
+2019-10-05T17:02:18.708017792 0.215845s notice: Listening for client driver connections on port 28015
+2019-10-05T17:02:18.708995826 0.216822s notice: Listening for administrative HTTP connections on port 8080
+2019-10-05T17:02:18.709010937 0.216836s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2019-10-05T17:02:18.709022925 0.216848s notice: Listening on driver addresses: 127.0.0.1, ::1
+2019-10-05T17:02:18.709036112 0.216861s notice: Listening on http addresses: 127.0.0.1, ::1
+2019-10-05T17:02:18.709132220 0.216958s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-10-05T17:02:18.709152601 0.216978s notice: Server ready, "carlos_pc_xyh" 51bdc603-ce5e-4681-82df-41a53485eb84
+2019-10-05T17:02:19.758793720 1.266621s info: Table 6530efd7-c80d-4bcc-a51a-a952d45eabc2: Starting a new Raft election for term 2.
+2019-10-05T17:02:19.820108926 1.327936s info: Table 6530efd7-c80d-4bcc-a51a-a952d45eabc2: This server is Raft leader for term 2. Latest log index is 2.
+2019-10-05T17:30:42.880320626 1704.388148s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2019-10-05T17:30:42.880617302 1704.388443s notice: Shutting down client connections...
+2019-10-05T17:30:42.881013638 1704.388840s notice: All client connections closed.
+2019-10-05T17:30:42.881030090 1704.388855s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2019-10-05T17:30:42.887842583 1704.395670s notice: Storage engine shut down.
+2019-10-07T13:40:31.558440510 0.171263s notice: Running rethinkdb 2.3.7~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2019-10-07T13:40:31.590238619 0.203061s notice: Running on Linux 4.15.0-65-generic x86_64
+2019-10-07T13:40:31.590496137 0.203306s notice: Loading data from directory /home/carlos/real-time-app/.messagesDB
+2019-10-07T13:40:31.875867853 0.488687s info: Automatically using cache size of 4424 MB
+2019-10-07T13:40:31.934327337 0.547138s notice: Listening for intracluster connections on port 29015
+2019-10-07T13:40:32.238366826 0.851177s notice: Listening for client driver connections on port 28015
+2019-10-07T13:40:32.239241039 0.852051s notice: Listening for administrative HTTP connections on port 8080
+2019-10-07T13:40:32.239262111 0.852071s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2019-10-07T13:40:32.239274490 0.852083s notice: Listening on driver addresses: 127.0.0.1, ::1
+2019-10-07T13:40:32.239292766 0.852102s notice: Listening on http addresses: 127.0.0.1, ::1
+2019-10-07T13:40:32.239357982 0.852167s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-10-07T13:40:32.239376038 0.852185s notice: Server ready, "carlos_pc_xyh" 51bdc603-ce5e-4681-82df-41a53485eb84
+2019-10-07T13:40:34.009381159 2.622191s info: Table 6530efd7-c80d-4bcc-a51a-a952d45eabc2: Starting a new Raft election for term 3.
+2019-10-07T13:40:34.060657829 2.673468s info: Table 6530efd7-c80d-4bcc-a51a-a952d45eabc2: This server is Raft leader for term 3. Latest log index is 5.
+2019-10-07T13:43:05.749648817 154.362460s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2019-10-07T13:43:05.768679894 154.381491s notice: Shutting down client connections...
+2019-10-07T13:43:05.769286067 154.382096s notice: All client connections closed.
+2019-10-07T13:43:05.769317957 154.382127s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2019-10-07T13:43:05.792000229 154.404811s notice: Storage engine shut down.
+2019-10-07T13:45:50.651922049 0.027420s notice: Running rethinkdb 2.3.7~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2019-10-07T13:45:50.654023576 0.029521s notice: Running on Linux 4.15.0-65-generic x86_64
+2019-10-07T13:45:50.654074604 0.029570s notice: Loading data from directory /home/carlos/real-time-app/.messagesDB
+2019-10-07T13:45:50.751071348 0.126577s info: Automatically using cache size of 4413 MB
+2019-10-07T13:45:50.753503075 0.128999s notice: Listening for intracluster connections on port 29015
+2019-10-07T13:45:50.817723831 0.193220s notice: Listening for client driver connections on port 28015
+2019-10-07T13:45:50.818006209 0.193502s notice: Listening for administrative HTTP connections on port 8080
+2019-10-07T13:45:50.818012147 0.193507s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2019-10-07T13:45:50.818016706 0.193512s notice: Listening on driver addresses: 127.0.0.1, ::1
+2019-10-07T13:45:50.818021067 0.193516s notice: Listening on http addresses: 127.0.0.1, ::1
+2019-10-07T13:45:50.818043143 0.193538s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-10-07T13:45:50.818048296 0.193544s notice: Server ready, "carlos_pc_xyh" 51bdc603-ce5e-4681-82df-41a53485eb84
+2019-10-07T13:45:51.930973375 1.306470s info: Table 6530efd7-c80d-4bcc-a51a-a952d45eabc2: Starting a new Raft election for term 4.
+2019-10-07T13:45:52.201624190 1.577120s info: Table 6530efd7-c80d-4bcc-a51a-a952d45eabc2: This server is Raft leader for term 4. Latest log index is 8.
+2019-10-07T13:52:53.203516326 422.579014s info: Table b37815c0-9012-42f7-8c9b-11b2038154d2: Starting a new Raft election for term 1.
+2019-10-07T13:52:53.204750370 422.580247s info: Table b37815c0-9012-42f7-8c9b-11b2038154d2: Added replica on this server.
+2019-10-07T13:52:53.266239602 422.641737s info: Table b37815c0-9012-42f7-8c9b-11b2038154d2: This server is Raft leader for term 1. Latest log index is 0.
+2019-10-07T14:11:32.324503612 1541.700000s info: Table 4d4e21f8-e823-49e8-81e0-83429d0e577b: Starting a new Raft election for term 1.
+2019-10-07T14:11:32.324892959 1541.700389s info: Table 4d4e21f8-e823-49e8-81e0-83429d0e577b: Added replica on this server.
+2019-10-07T14:11:32.385817168 1541.761314s info: Table 4d4e21f8-e823-49e8-81e0-83429d0e577b: This server is Raft leader for term 1. Latest log index is 0.
+2019-10-07T14:36:06.630131165 3016.005628s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2019-10-07T14:36:06.630412253 3016.005908s notice: Shutting down client connections...
+2019-10-07T14:36:06.630828262 3016.006325s notice: All client connections closed.
+2019-10-07T14:36:06.630848833 3016.006344s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2019-10-07T14:36:06.652964199 3016.028461s notice: Storage engine shut down.
+2019-10-07T15:19:32.014599009 0.171371s notice: Running rethinkdb 2.3.7~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2019-10-07T15:19:32.032709601 0.189471s notice: Running on Linux 4.15.0-65-generic x86_64
+2019-10-07T15:19:32.032767906 0.189527s notice: Loading data from directory /home/carlos/real-time-app/.messagesDB
+2019-10-07T15:19:32.370965105 0.527736s info: Automatically using cache size of 4552 MB
+2019-10-07T15:19:32.445701013 0.602461s notice: Listening for intracluster connections on port 29015
+2019-10-07T15:19:32.907705047 1.064465s notice: Listening for client driver connections on port 28015
+2019-10-07T15:19:32.908135100 1.064896s notice: Listening for administrative HTTP connections on port 8080
+2019-10-07T15:19:32.908245400 1.065004s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2019-10-07T15:19:32.908270297 1.065029s notice: Listening on driver addresses: 127.0.0.1, ::1
+2019-10-07T15:19:32.908291078 1.065050s notice: Listening on http addresses: 127.0.0.1, ::1
+2019-10-07T15:19:32.908309729 1.065069s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-10-07T15:19:32.908329713 1.065089s notice: Server ready, "carlos_pc_xyh" 51bdc603-ce5e-4681-82df-41a53485eb84
+2019-10-07T15:19:34.323284223 2.480045s info: Table 6530efd7-c80d-4bcc-a51a-a952d45eabc2: Starting a new Raft election for term 5.
+2019-10-07T15:19:34.323538281 2.480298s info: Table b37815c0-9012-42f7-8c9b-11b2038154d2: Starting a new Raft election for term 2.
+2019-10-07T15:19:34.332875558 2.489636s info: Table 4d4e21f8-e823-49e8-81e0-83429d0e577b: Starting a new Raft election for term 2.
+2019-10-07T15:19:34.406287230 2.563048s info: Table 6530efd7-c80d-4bcc-a51a-a952d45eabc2: This server is Raft leader for term 5. Latest log index is 11.
+2019-10-07T15:19:34.417586272 2.574347s info: Table b37815c0-9012-42f7-8c9b-11b2038154d2: This server is Raft leader for term 2. Latest log index is 3.
+2019-10-07T15:19:34.417795987 2.574555s info: Table 4d4e21f8-e823-49e8-81e0-83429d0e577b: This server is Raft leader for term 2. Latest log index is 3.
+2019-10-07T15:23:21.337070944 229.493831s info: Table 04870c6d-1cd4-40bf-b953-04cccf4d5b6e: Starting a new Raft election for term 1.
+2019-10-07T15:23:21.337659845 229.494420s info: Table 04870c6d-1cd4-40bf-b953-04cccf4d5b6e: Added replica on this server.
+2019-10-07T15:23:21.436074759 229.592835s info: Table 04870c6d-1cd4-40bf-b953-04cccf4d5b6e: This server is Raft leader for term 1. Latest log index is 0.
+2019-10-07T16:26:02.485652617 3990.642412s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2019-10-07T16:26:02.485737760 3990.642497s notice: Shutting down client connections...
+2019-10-07T16:26:02.485819049 3990.642578s notice: All client connections closed.
+2019-10-07T16:26:02.485823449 3990.642582s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2019-10-07T16:26:02.493857060 3990.650616s notice: Storage engine shut down.
+2019-10-07T16:42:04.485577212 0.171717s notice: Running rethinkdb 2.3.7~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2019-10-07T16:42:04.513650763 0.199787s notice: Running on Linux 4.15.0-65-generic x86_64
+2019-10-07T16:42:04.513949489 0.200077s notice: Loading data from directory /home/carlos/real-time-app/.messagesDB
+2019-10-07T16:42:04.864024597 0.550165s info: Automatically using cache size of 4451 MB
+2019-10-07T16:42:04.916911029 0.603039s notice: Listening for intracluster connections on port 29015
+2019-10-07T16:42:05.538113517 1.224242s notice: Listening for client driver connections on port 28015
+2019-10-07T16:42:05.538961723 1.225090s notice: Listening for administrative HTTP connections on port 8080
+2019-10-07T16:42:05.538984653 1.225111s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2019-10-07T16:42:05.539003825 1.225130s notice: Listening on driver addresses: 127.0.0.1, ::1
+2019-10-07T16:42:05.539022785 1.225149s notice: Listening on http addresses: 127.0.0.1, ::1
+2019-10-07T16:42:05.539040504 1.225167s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-10-07T16:42:05.539057568 1.225184s notice: Server ready, "carlos_pc_xyh" 51bdc603-ce5e-4681-82df-41a53485eb84
+2019-10-07T16:42:06.484628462 2.170756s info: Table 6530efd7-c80d-4bcc-a51a-a952d45eabc2: Starting a new Raft election for term 6.
+2019-10-07T16:42:06.818056430 2.504185s info: Table 6530efd7-c80d-4bcc-a51a-a952d45eabc2: This server is Raft leader for term 6. Latest log index is 14.
+2019-10-07T16:42:06.881980777 2.568110s info: Table 4d4e21f8-e823-49e8-81e0-83429d0e577b: Starting a new Raft election for term 3.
+2019-10-07T16:42:07.108364547 2.794492s info: Table 04870c6d-1cd4-40bf-b953-04cccf4d5b6e: Starting a new Raft election for term 2.
+2019-10-07T16:42:07.468086816 3.154215s info: Table 4d4e21f8-e823-49e8-81e0-83429d0e577b: This server is Raft leader for term 3. Latest log index is 6.
+2019-10-07T16:42:07.468376657 3.154503s info: Table 04870c6d-1cd4-40bf-b953-04cccf4d5b6e: This server is Raft leader for term 2. Latest log index is 3.
+2019-10-07T16:42:07.480437654 3.166566s info: Table b37815c0-9012-42f7-8c9b-11b2038154d2: Starting a new Raft election for term 3.
+2019-10-07T16:42:07.590454051 3.276582s info: Table b37815c0-9012-42f7-8c9b-11b2038154d2: This server is Raft leader for term 3. Latest log index is 6.
+2019-10-07T17:56:38.811841325 4474.497970s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2019-10-07T17:56:38.812376673 4474.498504s notice: Shutting down client connections...
+2019-10-07T17:56:38.812602724 4474.498729s notice: All client connections closed.
+2019-10-07T17:56:38.812621241 4474.498748s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2019-10-07T17:56:38.886748838 4474.572876s notice: Storage engine shut down.
