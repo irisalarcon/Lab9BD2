@@ -135,3 +135,77 @@
 2019-10-07T17:56:38.812602724 4474.498729s notice: All client connections closed.
 2019-10-07T17:56:38.812621241 4474.498748s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
 2019-10-07T17:56:38.886748838 4474.572876s notice: Storage engine shut down.
+2021-10-06T00:30:38.322099493 0.021192s notice: Running rethinkdb 2.4.1 (CLANG 10.0.0 )...
+2021-10-06T00:30:38.324204658 0.023295s notice: Running on Linux 5.4.0-74-generic x86_64
+2021-10-06T00:30:38.324256076 0.023346s notice: Loading data from directory /home/archsiri/Descargas/real-time-app/.messagesDB
+2021-10-06T00:30:38.330666048 0.029756s notice: Migrating cluster metadata to v2.4
+2021-10-06T00:30:38.344480484 0.043570s info: Automatically using cache size of 1398 MB
+2021-10-06T00:30:38.345315244 0.044405s notice: Listening for intracluster connections on port 29015
+2021-10-06T00:30:38.440604535 0.139694s notice: Listening for client driver connections on port 28015
+2021-10-06T00:30:38.440664641 0.139754s notice: Listening for administrative HTTP connections on port 8080
+2021-10-06T00:30:38.440668394 0.139758s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2021-10-06T00:30:38.440671291 0.139761s notice: Listening on driver addresses: 127.0.0.1, ::1
+2021-10-06T00:30:38.440694050 0.139784s notice: Listening on http addresses: 127.0.0.1, ::1
+2021-10-06T00:30:38.440697405 0.139787s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-10-06T00:30:38.440701357 0.139791s notice: Server ready, "carlos_pc_xyh" 51bdc603-ce5e-4681-82df-41a53485eb84
+2021-10-06T00:30:39.505766762 1.204857s info: Table 6530efd7-c80d-4bcc-a51a-a952d45eabc2: Starting a new Raft election for term 7.
+2021-10-06T00:30:39.512168176 1.211258s info: Table 6530efd7-c80d-4bcc-a51a-a952d45eabc2: This server is Raft leader for term 7. Latest log index is 17.
+2021-10-06T00:30:39.693867223 1.392958s info: Table b37815c0-9012-42f7-8c9b-11b2038154d2: Starting a new Raft election for term 4.
+2021-10-06T00:30:39.701617154 1.400708s info: Table b37815c0-9012-42f7-8c9b-11b2038154d2: This server is Raft leader for term 4. Latest log index is 9.
+2021-10-06T00:30:39.753066247 1.452156s info: Table 04870c6d-1cd4-40bf-b953-04cccf4d5b6e: Starting a new Raft election for term 3.
+2021-10-06T00:30:39.780589161 1.479679s info: Table 04870c6d-1cd4-40bf-b953-04cccf4d5b6e: This server is Raft leader for term 3. Latest log index is 6.
+2021-10-06T00:30:40.150239253 1.849329s info: Table 4d4e21f8-e823-49e8-81e0-83429d0e577b: Starting a new Raft election for term 4.
+2021-10-06T00:30:40.152164568 1.851255s info: Table 4d4e21f8-e823-49e8-81e0-83429d0e577b: This server is Raft leader for term 4. Latest log index is 9.
+2021-10-06T00:55:34.792298239 1496.491388s info: Table 1bb2f354-3d92-4887-98c7-7081e8f6c1a0: Starting a new Raft election for term 1.
+2021-10-06T00:55:34.792423052 1496.491513s info: Table 1bb2f354-3d92-4887-98c7-7081e8f6c1a0: Added replica on this server.
+2021-10-06T00:55:34.793656993 1496.492747s info: Table 1bb2f354-3d92-4887-98c7-7081e8f6c1a0: This server is Raft leader for term 1. Latest log index is 0.
+2021-10-06T00:55:35.282421523 1496.981512s info: Table 1bb2f354-3d92-4887-98c7-7081e8f6c1a0: Configuration is changing.
+2021-10-06T12:31:37.562230360 0.049002s notice: Running rethinkdb 2.4.1 (CLANG 10.0.0 )...
+2021-10-06T12:31:37.571115731 0.057885s notice: Running on Linux 5.4.0-74-generic x86_64
+2021-10-06T12:31:37.571190770 0.057959s notice: Loading data from directory /home/archsiri/Descargas/real-time-app/.messagesDB
+2021-10-06T12:31:37.600637689 0.087406s info: Automatically using cache size of 1470 MB
+2021-10-06T12:31:37.607354131 0.094122s notice: Listening for intracluster connections on port 29015
+2021-10-06T12:31:37.725200035 0.211968s notice: Listening for client driver connections on port 28015
+2021-10-06T12:31:37.725275921 0.212044s notice: Listening for administrative HTTP connections on port 8080
+2021-10-06T12:31:37.725279325 0.212047s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2021-10-06T12:31:37.725282418 0.212050s notice: Listening on driver addresses: 127.0.0.1, ::1
+2021-10-06T12:31:37.725327765 0.212096s notice: Listening on http addresses: 127.0.0.1, ::1
+2021-10-06T12:31:37.725331412 0.212099s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-10-06T12:31:37.725334541 0.212102s notice: Server ready, "carlos_pc_xyh" 51bdc603-ce5e-4681-82df-41a53485eb84
+2021-10-06T12:31:38.781792179 1.268561s info: Table 4d4e21f8-e823-49e8-81e0-83429d0e577b: Starting a new Raft election for term 5.
+2021-10-06T12:31:38.789111704 1.275881s info: Table 4d4e21f8-e823-49e8-81e0-83429d0e577b: This server is Raft leader for term 5. Latest log index is 12.
+2021-10-06T12:31:38.826302321 1.313071s info: Table 1bb2f354-3d92-4887-98c7-7081e8f6c1a0: Starting a new Raft election for term 2.
+2021-10-06T12:31:38.829216703 1.315985s info: Table 1bb2f354-3d92-4887-98c7-7081e8f6c1a0: This server is Raft leader for term 2. Latest log index is 4.
+2021-10-06T12:31:38.855048097 1.341816s info: Table 04870c6d-1cd4-40bf-b953-04cccf4d5b6e: Starting a new Raft election for term 4.
+2021-10-06T12:31:38.857152688 1.343921s info: Table 04870c6d-1cd4-40bf-b953-04cccf4d5b6e: This server is Raft leader for term 4. Latest log index is 9.
+2021-10-06T12:31:39.244101819 1.730871s info: Table 6530efd7-c80d-4bcc-a51a-a952d45eabc2: Starting a new Raft election for term 8.
+2021-10-06T12:31:39.245712386 1.732481s info: Table 6530efd7-c80d-4bcc-a51a-a952d45eabc2: This server is Raft leader for term 8. Latest log index is 20.
+2021-10-06T12:31:39.464486042 1.951254s info: Table b37815c0-9012-42f7-8c9b-11b2038154d2: Starting a new Raft election for term 5.
+2021-10-06T12:31:39.502985948 1.989754s info: Table b37815c0-9012-42f7-8c9b-11b2038154d2: This server is Raft leader for term 5. Latest log index is 12.
+2021-10-06T15:07:02.048333109 9324.535102s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2021-10-06T15:07:02.048552112 9324.535321s notice: Shutting down client connections...
+2021-10-06T15:07:02.056697136 9324.543465s notice: All client connections closed.
+2021-10-06T15:07:02.056704834 9324.543473s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-10-06T15:07:02.069740674 9324.556509s notice: Storage engine shut down.
+2021-10-06T18:31:36.687030973 0.034885s notice: Running rethinkdb 2.4.1 (CLANG 10.0.0 )...
+2021-10-06T18:31:36.689231607 0.037085s notice: Running on Linux 5.4.0-74-generic x86_64
+2021-10-06T18:31:36.689277763 0.037130s notice: Loading data from directory /home/archsiri/Descargas/real-time-app/.messagesDB
+2021-10-06T18:31:36.707089024 0.054941s info: Automatically using cache size of 1023 MB
+2021-10-06T18:31:36.712289855 0.060142s notice: Listening for intracluster connections on port 29015
+2021-10-06T18:31:36.793517660 0.141370s notice: Listening for client driver connections on port 28015
+2021-10-06T18:31:36.793729977 0.141582s notice: Listening for administrative HTTP connections on port 8080
+2021-10-06T18:31:36.793733844 0.141586s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2021-10-06T18:31:36.793779609 0.141631s notice: Listening on driver addresses: 127.0.0.1, ::1
+2021-10-06T18:31:36.793783902 0.141636s notice: Listening on http addresses: 127.0.0.1, ::1
+2021-10-06T18:31:36.793790454 0.141642s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-10-06T18:31:36.793794096 0.141646s notice: Server ready, "carlos_pc_xyh" 51bdc603-ce5e-4681-82df-41a53485eb84
+2021-10-06T18:31:37.778702363 1.126555s info: Table 4d4e21f8-e823-49e8-81e0-83429d0e577b: Starting a new Raft election for term 6.
+2021-10-06T18:31:37.785766884 1.133619s info: Table 4d4e21f8-e823-49e8-81e0-83429d0e577b: This server is Raft leader for term 6. Latest log index is 15.
+2021-10-06T18:31:37.792754693 1.140607s info: Table 1bb2f354-3d92-4887-98c7-7081e8f6c1a0: Starting a new Raft election for term 3.
+2021-10-06T18:31:37.793520104 1.141372s info: Table 1bb2f354-3d92-4887-98c7-7081e8f6c1a0: This server is Raft leader for term 3. Latest log index is 7.
+2021-10-06T18:31:38.083972299 1.431825s info: Table 04870c6d-1cd4-40bf-b953-04cccf4d5b6e: Starting a new Raft election for term 5.
+2021-10-06T18:31:38.085556829 1.433409s info: Table 04870c6d-1cd4-40bf-b953-04cccf4d5b6e: This server is Raft leader for term 5. Latest log index is 12.
+2021-10-06T18:31:38.162591132 1.510444s info: Table 6530efd7-c80d-4bcc-a51a-a952d45eabc2: Starting a new Raft election for term 9.
+2021-10-06T18:31:38.168625780 1.516478s info: Table 6530efd7-c80d-4bcc-a51a-a952d45eabc2: This server is Raft leader for term 9. Latest log index is 23.
+2021-10-06T18:31:38.266289555 1.614142s info: Table b37815c0-9012-42f7-8c9b-11b2038154d2: Starting a new Raft election for term 6.
+2021-10-06T18:31:38.268770932 1.616623s info: Table b37815c0-9012-42f7-8c9b-11b2038154d2: This server is Raft leader for term 6. Latest log index is 15.

@@ -81,14 +81,27 @@
 			connectToWebSocketServer();
 		}
 		</script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- CSS only -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+		<title>Mensajes</title>
 	</head>
 	<body onLoad="init()">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<ul><a href="form.html"> Nuevo mensaje</a></ul>
+		<ul><a href="index.html">Mensajes</a></ul>
+	</nav>
+	<div class="container">
 		<h1>Mensajes:</h1>
-		<table id="msgTable" border="1" cellspacing="0">
+
+		<table id="msgTable" border="1" cellspacing="0" class="table table-dark">
 			<tr>
 				<td>ID</td>
 				<td>Mensaje</td>
 			</tr>
 		</table>
+	</div>
+
 	</body>
 </html>
